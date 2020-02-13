@@ -1,4 +1,3 @@
-
 var daysOfWeek=[
     "Sunday",
     "Monday",
@@ -38,8 +37,6 @@ if(day<=0||day>31)
 alert("Please enter the correct day");
 else if(month<0||month>12 ||month==2 &&day>29)
 alert("Please enter the correct day");
-
-
 var day = new Date(year + "/" + month + "/" + day);
 var birthDay=day.getDay();
 if(male.checked==true){
@@ -49,4 +46,3 @@ else if(female.checked==true){
    alert("You were born on " +daysOfWeek[birthDay]+ " and your akan name is " + femaleNames[birthDay])
 }
 }
-
