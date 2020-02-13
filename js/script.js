@@ -8,4 +8,13 @@ var daysOfWeek=[
     "Friday",
     "Saturday",
 ];
-var maleNames
+var maleNames=[
+    "kwasi",
+    "kwadwo",
+    "kwabena",
+    "Kwaku",
+    "Yaw",
+    "Kofi",
+    "Kwame",
+];
+
