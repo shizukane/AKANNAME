@@ -35,7 +35,7 @@ var female = document.getElementById("female");
 //validation
 if(day<=0||day>31)
 alert("Please enter the correct day of birth");
-else if(month<0||month>12 ||month==2 &&day>29)
+else if(month<0||month>12 ||month==2 &&day>29);
 alert("Please enter the correct day of birth");
 var day = new Date(year + "/" + month + "/" + day);
 var birthDay=day.getDay();
